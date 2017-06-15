@@ -1,3 +1,8 @@
+body{
+	background-color:#ccc;
+}
+
+
 nav{
 	background-color:gray;
 	margin:10px;
@@ -8,8 +13,10 @@ nav ul{
 	list-style-type:none;
 	padding:0px;	
 	
+	}	
+nav ul li{
+	display:inline;
 	
 	}	
 	
-	
-h1{}
+h1{color:black;}
