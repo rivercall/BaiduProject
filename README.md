@@ -1,2 +1,3 @@
 # BaiduProject
-practice and test
+practice and test for 百度前端 Project
+
