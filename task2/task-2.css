@@ -1,22 +1,89 @@
 body{
-	background-color:#cc2;
+				background-color:#eeeec1;
+				font-size: small;
+				font-family: 黑体;
+				margin: 0px；
 }
 
+header{
+				background-color:white;
+				margin:10px;
+				height: 100px;
+}
 
 nav{
-	background-color:gray;
-	margin:10px;
-	}
+				float: right; 
+				margin:10px;
+				margin-top: 40px;
+}
 	
-nav ul{
-    margin:0px;
-	list-style-type:none;
-	padding:0px;	
-	
-	}	
-nav ul li{
-	display:inline;
-	
-	}	
-	
-h1{color:black;}
+nav ul li {display:inline;}	
+
+#haha1, #haha2, #haha3, #haha4, #haha5{
+				/* border: gray 1px solid; */
+				padding: 30px;
+				background-color:white;
+				margin:10px;
+}
+
+/* 以下为组合图片区域 */
+.zuhe{
+				border: black 1px solid;
+				padding: 10px;
+				padding-top: 0;
+				background-color:white;
+				margin:10px;
+				margin-left: 50px;
+				width: 150px;
+				height: 170px;
+				text-align: center;
+				line-height: 1.9em;
+}
+
+.zuhe img{
+				width: 150px;
+				height: 140px;
+}
+/* 组合图片区域 */
+
+
+/* 以下为表格区域 */
+th {		width: 200px;
+				background-color: black;
+				color:white;
+}
+
+td {text-align: center;}
+
+.bottomtable{
+				background-color: gray;
+				font-weight: bold;
+}
+/* 表格区域 */
+
+
+/* 以下为表单区域 */
+#formtable{
+				margin-left: 300px;
+}
+
+.biaodan{
+				display: table-row;
+}
+
+.biaodan p{
+				display: table-cell;
+				vertical-align: top;
+				padding: 3px;
+}
+
+.biaodan p:first-child{
+				text-align: right;
+}
+
+p.tishi{
+				color:gray;
+				font-size: 0.8em;
+}
+
+/* 表单区域 */
