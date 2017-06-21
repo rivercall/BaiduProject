@@ -1,0 +1,37 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-21 20:21:35
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-21 20:47:26
+*/
+div#gray{
+  background-color: #ccc;
+  width: 400px;
+  height: 200px;
+  position: fixed;
+  left:50%;
+  top:50%;
+  margin-left: -200px;
+  margin-top: -100px;
+  overflow: hidden;
+}
+
+div div#yellow1{
+  background-color: #fc0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left:350px;
+  top: 150px;
+}
+
+div div#yellow2{
+  background-color: #fc0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left:-50px;
+  top: -50px;
+}
