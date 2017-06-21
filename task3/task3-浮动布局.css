@@ -1,0 +1,44 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-18 23:01:46
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-21 16:10:30
+*/
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+section{
+    background-color: #eee;
+    border:1px solid black;
+    overflow: hidden;
+}
+
+section>div{
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+section div#team{
+    float: left;
+    width: 160px;
+}
+
+section div#introduction{
+    /* width: calc(100%-200px-120px-20*4px); */
+    overflow: hidden;
+}
+
+section div#personal{
+    float: right;
+    width: 80px;
+    text-align: center;
+}
+
+:after{
+     content:"";
+     clear:both
+}
