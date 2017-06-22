@@ -2,7 +2,7 @@
 * @Author: hanli
 * @Date:   2017-06-18 23:01:46
 * @Last Modified by:   hanli
-* @Last Modified time: 2017-06-21 16:10:30
+* @Last Modified time: 2017-06-21 22:55:52
 */
 /* *{
     margin:0;
@@ -38,7 +38,7 @@ section div#personal{
     text-align: center;
 }
 
-:after{
+/* :after{
      content:"";
      clear:both
-}
+} */
