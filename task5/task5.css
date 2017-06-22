@@ -1,0 +1,163 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-21 22:50:30
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-22 19:01:33
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ccc;
+}
+
+p{
+	font-size: 16px;
+}
+
+header, aside, #haha1, #haha2, #haha3, #haha4, footer{
+	background-color: white;
+	/* border: 1px solid gray; */
+}
+
+aside, #haha1, #haha2, #haha3, #haha4{
+	margin: 20px;
+	padding: 20px;
+}
+
+header{
+	background-color: black;
+	height: 50px;
+}
+
+header nav{
+	display: inline-block;
+	position: absolute;
+	right:50px;
+	top: 0;
+	word-spacing: 20px;
+}
+
+header nav ul li{
+	display: inline;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 12px;
+	line-height: 50px;
+}
+
+aside{
+	float: right;
+	width: 300px;
+}
+
+aside p{
+	font-size: 12px;
+}
+
+aside form .biaodan{
+	display: table-row;
+}
+
+aside form .biaodan p{
+	display: table-cell;
+	line-height: 30px;
+}
+
+aside form .biaodan p:first-child{
+	text-align: right;
+	padding-right:1em;
+	vertical-align: top;
+}
+
+aside #tijiao{
+	display: block;
+	width: 300px;
+	height: 50px;
+}
+
+aside form div #submit{
+	width: 300px;
+	height: 50px;
+	background-color: #fcc;
+	border-radius: 10px;
+	border: 0;
+}
+
+#haha1,#haha2,#haha3,#haha4{
+	margin-right: 380px;
+	overflow: hidden;
+}
+
+#haha2 ul li{
+	list-style: none;
+}
+
+#haha3 .zuhe{
+	width: 140px;
+	height: 140px;
+	border:1px solid black;
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+}
+
+#haha3 .zuhe img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:5px;
+}
+
+#haha4 ol{
+	padding: 40px;
+}
+
+#haha4 table{
+	border-collapse: collapse;
+	/* border-spacing: 0px; */
+}
+
+#haha4 th,td{
+	border:1px solid #999;
+}
+
+#haha4 th{
+	width: 400px;
+	text-align: left;
+	background-color: #333;
+	color: white;
+}
+
+#haha4 .bottomtable{
+	background-color: #ccc;
+}
+
+footer{
+	background-color: black;
+	height: 50px;
+	text-align: center;
+}
+
+footer span{
+	font-size: 12px;
+	color: white;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
