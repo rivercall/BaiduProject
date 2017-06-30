@@ -1,0 +1,113 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-28 21:15:29
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-29 08:50:51
+*/
+body{
+  background-color: #ffc;
+}
+
+section{
+  height: 1386px;
+  width: 980px;
+  background-color: #fff;
+  margin: 50px auto;
+}
+
+/* header部分开始 */
+header .w{
+  height: 61px;
+  border-bottom: 2px solid #938e8c;
+}
+
+header .fl{
+  height: 61px;
+  width: 110px;
+  background-color: #EE6363;
+  position: relative;
+}
+
+header .fl a{
+  display: block;
+  padding-bottom: 4px;
+  width: 110px;
+  position:absolute;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  font-family: SimHei;
+}
+
+header .fr{
+  height: 61px;
+  width: 110px;
+  position: relative;
+}
+
+header .fr p{
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+  font-size: 12px;
+  color:#d45d5c;
+  font-family: SimHei;
+}
+/* header部分结束 */
+
+/* container部分开始 */
+/* container up 部分开始 */
+.container{
+  margin-top: 24px;
+}
+
+.container .up .pic{
+  height: 301px;
+  width: 641px;
+  background: url("../image/gunbotu.jpg") no-repeat;
+  background-size: cover;
+}
+
+.container .up .picl{
+  height: 301px;
+  width: 191px;
+  background-color: rgba(100,100,0,0.3);
+}
+
+.container .up .picr{
+  height: 301px;
+  width: 191px;
+  background-color: rgba(0,0,20,0.3);
+}
+
+.container .up .text{
+  background-color: #ffc;
+  height: 301px;
+  width: 203px;
+}
+
+.container .up .text{
+  border-top: 2px solid #cc8091;
+}
+
+.container .up .text .one{
+  text-decoration: underline;
+  font-size: 24px; 
+  font-family: Microsoft YaHei;
+  line-height: 40px;
+}
+
+.container .up .text .two{
+  line-height: 40px;
+  text-decoration: underline;
+  font-size: 24px; 
+  font-family: Microsoft YaHei;
+}
+
+.container .up .text .three{
+  font-size: 12px; 
+  color: #676767;
+  line-height: 10px;
+  font-family: KaiTi;
+}
+/* container部分结束 */
