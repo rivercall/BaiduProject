@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*清除所有元素外边距*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*清除浮动*/
+.clearfix::after{
+  content:"";
+  display: block;
+  height:0;
+  clear: both;
+}
+
+/*版心设置*/
+.w{
+  width:1190px;
+  margin:0 auto;
+  min-width:1190px;
+}
+
+/*左浮动*/
+.fl{
+  float: left;
+}
+
+/*右浮动*/
+.fr{
+  float: right;
+}
+
+/*清除列表样式*/
+ul, ol{
+  list-style:none;
+}
+
+/*a标签样式*/
+a{
+  text-decoration: none;
+}
+
+/*旧元素重新利用*/
+s, i, em {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/*字体图标*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*header部分内容
+<meta charset="utf-8">
+<title>copyJD</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+*/
+
+/*input标签
+<input type="text" value="默认" placeholder="placeholder" name="username">       <!--文本框-->
+<input type="password">  <!--密码框-->
+<input type="radio"> 	  <!--单选框-->  默认选中是checked属性
+<input type="checkbox">  <!--多选框-->   默认选中checked属性
+<input type="button" value="">     <!--按钮-->
+<input type="reset">      <!--重置,表单内所有-->
+<input type="image" src="">      <!--图片按钮-->
+<input type="file" name="file"> <!--文件-->
+<input type="submit">  <!--提交-->
+<!--html5新增的input类型-->
+<input type="email">  <!--搜索-->
+<input type="search">   <!--搜索-->
+<input type="tel">   <!--电话号 -->
+<input type="range" name="points" min="0" max="10">
+<input type="date">     <!--日期-->
+<input type="number">      <!--数字-->
+*/
+
+/*特殊字符
+1. "  &quot;
+2. &  &amp;
+3. <  &lt;
+4. >  &gt;
+5. 空格 &nbsp;
+*/
+
+/*给元素设置圆角
+<border-radius: 50px;> <!--四边都设置-->
+*/
+
+/*设置阴影*/
+/* box-shadow: 2px 2px 2px 1px color; */
+
+/*过渡*/
+/*transition: all 1s(动画时间) ease-in(或linear) 1s(延迟可不写);*/
