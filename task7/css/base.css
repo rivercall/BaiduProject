@@ -1,0 +1,31 @@
+*{
+  margin:0 auto;
+  padding:0 auto;
+}
+
+body{
+  min-width: 1280px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  height:0;
+  clear:both;
+}
+
+.fl{
+  float:left;
+}
+
+.fr{
+  float:right;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}

@@ -1,0 +1,628 @@
+
+/*nav部分开始*/
+nav{
+  box-sizing:border-box;
+  height: 57px;
+  width: 1280px;
+  background-color: #fff;
+  position: relative;
+}
+
+nav .logo{
+  float: left;
+  height: 30px;
+  width: 30px;
+  background: url("../images/01.PNG") no-repeat;
+  background-size: 30px 30px;
+  position: absolute;
+  top:15px;
+  left: 40px;
+}
+
+nav .fl p{
+  height: 57px;
+  line-height: 57px;
+  position: absolute;
+  left: 80px;
+}
+
+nav ul li{
+  float: left;
+  height: 57px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+nav ul li a{
+  display:block;
+  height: 57px;
+  box-sizing: border-box;
+  line-height: 57px;
+  color:#666;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+nav ul li:hover a{
+  border-bottom: 2px solid red;
+}
+
+nav ul li:last-child a{
+  color:red;
+}
+/*nav部分结束*/
+
+
+
+/*header部分开始*/
+header{
+  height: 690px;
+  width: 1280px;
+  box-sizing: border-box;
+  background: url("../images/02.png") no-repeat;
+  background-size: 1280px 690px;
+  position: relative;
+}
+
+header .text{
+  height: 200px;
+  width:500px;
+  /*background-color: #ffc;*/
+  position: absolute;
+  top:200px;
+  left:100px;
+}
+
+header .text p{
+  color:#fff;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+header .text span{
+  display: block;
+  color: white;
+  width: 250px;
+  margin-left: 0px;
+  font-size: 16px;
+}
+
+header .two{
+  height: 65px;
+  width: 330px;
+  background-color: #ada;
+  position: absolute;
+  left: 120px;
+  bottom: 200px;
+  text-align: center;
+}
+
+header .two a{
+  display: block;
+  height: 65px;
+  font-size: 30px;
+  color:#a3a;
+  line-height: 65px;
+}
+
+header .two:hover{
+  background-color: #faa;
+}
+/*header部分结束*/
+
+
+
+/*icon部分开始*/
+.icon{
+  height: 250px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+
+.icon .one{
+  text-align: center;
+  height: 170px;
+  width: 170px;
+  margin: 50px 60px;
+}
+
+.icon .one img{
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 30px;
+}
+
+.icon li{
+  float: left;
+  font-size: 12px;
+}
+
+.icon .space{
+  width: 2px;
+  height: 50px;
+  background-color: #999;
+  margin-top: 132px;
+}
+/*icon部分结束*/
+
+
+
+/*unknown部分开始*/
+.unknown{
+  height: 360px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #ededec;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.unknown img{
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin-top: 90px;
+}
+
+.unknown p{
+  font-size: 40px;
+  margin-top: 50px;
+  color: #a1a1a1;
+}
+
+/*unknown部分结束*/
+
+/*city部分开始*/
+.city{
+  height: 340px;
+  width: 1280px;
+  box-sizing: border-box;
+  background:url("../images/08.png");
+  background-size: 1280px 340px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.city .text{
+  color:#333;
+  margin-top: 50px;
+}
+
+.city .text .two{
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.city .text .three{
+  font-size: 12px;
+}
+
+.city form{
+  margin-top: 50px;
+}
+
+.city form input{
+  height: 35px;
+  width: 235px;
+  background: #fff;
+  box-sizing: border-box;
+  border-style: none;
+  background-color: #ffc;
+  margin: 20px 20px;
+  padding-left: 20px;
+}
+
+.city form .submit{
+  padding: 0px;
+  text-align: center;
+  background-color: #ffaf00;
+  cursor: pointer;
+}
+
+.city form .submit:hover{
+  color:#fff;
+}
+/*city部分结束*/
+
+
+/*act部分开始*/
+.act{
+  height: 605px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  position: relative;
+  overflow: hidden;
+}
+
+.act ul{
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.act li{
+  height: 400px;
+  width: 220px;
+  float: left;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.act li img{
+  width: 206px;
+  height: 310px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 12px 7px;
+  border:1px solid #999;
+}
+
+.act li .one{
+  font-size: 16px;
+  text-align: center;
+}
+
+.act li .two{
+  font-size: 12px;
+  text-align: center;
+}
+
+/*act部分结束*/
+
+
+/*new部分开始*/
+.new{
+  height: 565px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+
+.new .left{
+  width: 850px;
+  height: 565px;
+  background: url("../images/10.PNG") no-repeat;
+  background-size: contain;
+}
+
+.new .right{
+  width: 430px;
+  box-sizing: border-box;
+  padding-top: 160px;
+}
+
+.new .right .one{
+  text-align: center;
+  font-size: 30px;
+}
+
+.new .right .two{
+  width: 300px;
+  font-size: 12px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.new .right .more a{
+  display: block;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  /*font-weight: 700;*/
+  color: red;
+  border: 1px solid red;
+  line-height: 35px;
+}
+
+.new .right .more a:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.new .right .dot{
+  width: 90px;
+  margin-top: 25px;
+  
+}
+
+.new .right .dot a{
+  display: block;
+  float: left;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #aaa;
+  margin: 0 10px;
+}
+
+.new .right .dot a:hover{
+  background-color: red;
+}
+/*new部分结束*/
+
+
+/*life部分开始*/
+.life{
+  height: 520px;
+  width: 1280px;
+  box-sizing: border-box;
+  /*background-color: #ffc;*/
+  position: relative;
+}
+
+.life .left{
+  background-color: #e74f4d;
+  height: 520px;
+  width: 425px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 170px;
+}
+
+.life .left p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.life .left p.one{
+  margin-top: -10px;
+}
+
+.life .left a{
+  display: block;
+  height: 42px;
+  margin-top: 20px;
+  width: 170px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.life .left a:hover{
+  color:#e74f4d;
+  background-color: #fff;
+}
+
+.life .middle{
+  background-color: #ddd;
+  height: 520px;
+  width: 425px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 170px;
+}
+
+.life .middle p{
+  color: #333;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.life .middle p.one{
+  margin-top: -10px;
+}
+
+.life .middle a{
+  display: block;
+  height: 42px;
+  margin-top: 20px;
+  width: 170px;
+  box-sizing: border-box;
+  border: 1px solid #e74f4d;
+  color: #e74f4d;
+  text-align: center;
+  line-height: 40px;
+}
+
+.life .middle a:hover{
+  color:#fff;
+  background-color: #e74f4d;
+}
+
+.life .right{
+  /*background-color: #999;*/
+  width: 430px;
+  height: 520px;
+  box-sizing: border-box;
+  background: url("../images/11.PNG") no-repeat;
+  background-size: contain;
+  width: 430px;
+  height: 520px;
+}
+/*life部分结束*/
+
+
+/*volun部分开始*/
+.volun{
+  height: 750px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+
+.volun .top{
+  padding-top: 110px;
+  box-sizing: border-box;
+  width: 1280px;
+  height: 250px;
+  text-align: center;
+  color:#333;
+  /*background-color: #ffc;*/
+}
+
+.volun .top .two{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.volun .top .three{
+  font-size: 12px;
+}
+
+.volun .left{
+  height: 500px;
+  width: 480px;
+  box-sizing: border-box;
+  /*background-color: #cff;*/
+  padding-left: 130px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.volun .left p.big{
+  font-size: 16px;
+  text-align: left;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+.volun .left p.small{
+  font-size: 12px;
+  text-align: left;
+  line-height: 16px;
+}
+
+.volun .left p.more{
+  font-size: 12px;
+  text-align: right;
+  line-height: 16px;
+}
+
+.volun .left p.more a:hover{
+  color: red;
+}
+
+.volun .right{
+  height: 500px;
+  width: 800px;
+  box-sizing: border-box;
+  /*background-color: #fcf;*/
+  padding:50px 80px 0 50px;
+}
+
+.volun .right input{
+  border-style: none;
+  height:40px;
+  width: 310px;
+  box-sizing: border-box;
+  padding-left:15px ;
+  margin: 0 10px 15px 0;
+  background-color: #ededee;
+}
+
+.volun .right textarea{
+  width: 636px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #ededee;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border-style: none;
+}
+
+.volun .right form .submit{
+  width: 636px;
+  padding-left: 0px;
+}
+/*volun部分结束*/
+
+
+/*contact部分开始*/
+.contact{
+  height: 360px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color:#64696e;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contact p{
+  width: 400px;
+  text-align: center;
+  color:#fff;
+}
+
+.contact p.big{
+  font-size: 24px;
+  line-height: 50px;
+  margin-top: 80px;
+}
+
+.contact p.small{
+  font-size:12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.contact .text{
+  border-style: none;
+  height: 40px;
+  padding: 0;
+  padding-left: 10px;
+  width: 430px;
+  box-sizing: border-box;
+}
+
+.contact .submit{
+  border-style: none;
+  padding: 0;
+  box-sizing: border-box;
+  height: 40px;
+  width: 80px;
+  position: relative;
+  left:-6px;
+  top:0.5px;
+  cursor: pointer;
+}
+
+.contact .submit:hover{
+  background-color: orange;
+  color:#fff;
+}
+/*contact部分结束*/
+
+
+/*footer部分开始*/
+footer{
+  height: 60px;
+  width: 1280px;
+  box-sizing: border-box;
+  background-color: #2f2f38;
+  position: relative;
+  padding: 0 30px;
+}
+
+footer p{
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  box-sizing: border-box;
+  color:#fff;
+  font-size: 12px;
+}
+
+footer a{
+  float: right;
+  height: 60px;
+  line-height: 60px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #fff;
+}
+/*footer部分结束*/
