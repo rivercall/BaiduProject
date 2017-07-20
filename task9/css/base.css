@@ -1,0 +1,32 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+.w{
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  height:0px;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+}
